@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NuevaVida</class>
+ <widget class="QMainWindow" name="NuevaVida">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="capitulo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>68</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>capitulo</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="versiculo_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>68</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>versiculo</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="libro">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>68</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>libro</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="libro_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>191</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="capitulo_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="versiculo">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Cargar">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>230</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cargar</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lista">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>80</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
