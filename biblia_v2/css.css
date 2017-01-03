@@ -1,0 +1,7 @@
+QMainWindow#window {background-color: black;}
+QLabel#label {
+    margin-left: 2px;
+    color: #FFFFFF;
+    background-color: #4075CC;
+}
+
